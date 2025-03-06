@@ -1,0 +1,24 @@
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual do Poetry
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Dados (dependendo do seu caso)
+data/raw/
+data/processed/
+data/interim/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Modelos salvos
+models/

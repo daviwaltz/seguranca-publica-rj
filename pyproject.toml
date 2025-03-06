@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "seguranca-publica-rj"
+version = "0.1.0"
+description = "Análise de dados do Ministério da Justiça para identificar os municípios mais seguros do Rio de Janeiro"
+authors = ["Davi Waltz"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+black = "^25.1.0"
+flake8 = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
